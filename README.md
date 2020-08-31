@@ -1,3 +1,6 @@
 # unity-mirror
 Project for Mirror multiplayer games
-Simple First stduy of this High level framework => see Mirror at https://mirror-networking.com/
+Simple First study of this High level framework => see Mirror at https://mirror-networking.com/
+Project is using Unity 2019.4 LTS
+Clone the project, openit in Unity, and load the scene MoveSync !
+More informations on the MYG's tuto at https://makeyourgame.fun/tutoriel/jeux-videos/unity/decouverte-mirror-multiplayer-unity
