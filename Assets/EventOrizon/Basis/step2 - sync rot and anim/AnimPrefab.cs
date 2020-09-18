@@ -22,7 +22,6 @@ public class AnimPrefab : NetworkBehaviour {
         if (Input.GetMouseButton (2) && this.isLocalPlayer) {
             Debug.Log ("Pressed left click: attack");
             //animator.SetTrigger ("hit"); // not working in sync
-
             netAnim.SetTrigger ("hit");
         }
     }
@@ -39,8 +38,7 @@ public class AnimPrefab : NetworkBehaviour {
             }*/
 
             animator.SetFloat("move", move);
-
-            GetComponent<Rigidbody> ().velocity = transform.forward * move * speed; //new Vector3(0.0f,0.0f,move * speed); // uniquement sur axe Z
+            GetComponent<Rigidbody> ().velocity = transform.forward * move * speed; 
             this.transform.Rotate (rotVector * rot);
         }
     }
