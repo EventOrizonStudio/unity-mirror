@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/#EventOrizon/Basis/step1 - sync pos/MoveSync.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/#EventOrizon/Basis/step2 - sync rot and anim/AnimSync.unity
+    guid: 09f5d40446daf4784b7f8f78e2de5337
+  - enabled: 0
+    path: Assets/#EventOrizon/Basis/step4 - ship/ship.unity
+    guid: 482a86b942cb2490299255d1a88b8a87
+  - enabled: 0
+    path: Assets/#EventOrizon/Basis/step5 - ennemy/ennemy.unity
+    guid: 92a459b3163714e1fbc1857f9f3fa7f2
+  - enabled: 1
+    path: Assets/#EventOrizon/Basis/step6 - damage/damage.unity
+    guid: b8d05c5d7684a4901b9837c69a2ebe89
   m_configObjects: {}
